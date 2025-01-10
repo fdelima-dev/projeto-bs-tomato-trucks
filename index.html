@@ -3,35 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Notícias</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Portal Notícias</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
             <div>
-                <h1>Portal de Notícias</h1>
+                <h1>Portal Notícias</h1>
             </div>
             <div>
                 <form>
-                    <input type="search" placeholder="Pesquisar...">
-                    <button type="submit">Pesquisar...</button>
+                    <input type="search">
+                    <button type="submit">Procurar</button>
                 </form>
             </div>
         </div>
         <nav>
             <ul class="menu-dropdown">
-                <li><a href="#">Esportes</a>
+                <li>
+                    <a href="#">
+                        Esportes
+                    </a>
                     <ul>
                         <li><a href="#">Futebol</a></li>
                         <li><a href="#">Basquete</a></li>
                         <li><a href="#">Formula 1</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Economia</a>
+                <li>
+                    <a href="#">
+                        Economia
+                    </a>
                     <ul>
                         <li><a href="#">Bolsa de valores</a></li>
                         <li><a href="#">Imposto de renda</a></li>
@@ -43,40 +49,40 @@
     </header>
     <div class="container conteudo">
         <main>
-            <div class="destaque">
-                <h2>Destaque</h2>
+            <section class="destaques">
+                <h2>Destaques</h2>
                 <article class="noticia">
                     <a href="#">
                         <img src="images/320x320.png">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
                     </a>
                 </article>
-            </div>
+            </section>
             <section>
-                <h2>Últimas Notícias</h2>
+                <h2>Noticias</h2>
                 <div class="noticias">
                     <article class="noticia">
                         <a href="#">
                             <img src="images/320x320.png">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
                         </a>
                     </article>
                     <article class="noticia">
                         <a href="#">
                             <img src="images/320x320.png">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
                         </a>
                     </article>
                     <article class="noticia">
                         <a href="#">
                             <img src="images/320x320.png">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
                         </a>
                     </article>
                     <article class="noticia">
                         <a href="#">
                             <img src="images/320x320.png">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
                         </a>
                     </article>
                 </div>
@@ -84,31 +90,34 @@
         </main>
         <aside>
             <h2>Novidades</h2>
-            <div class="novidades">
-                <article class="noticia">
-                    <a href="#">
-                        <img src="images/320x320.png">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="images/320x320.png">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="images/320x320.png">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="images/320x320.png">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam, veniam dolores officiis unde eligendi asperiores pariatur, praesentium ab eaque, voluptate magnam. In cum dignissimos alias voluptas fuga minus molestiae?</h3>
-                    </a>
-                </article>
+                <section>
+                    <div class="novidades">
+                    
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="images/320x320.png">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="images/320x320.png">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="images/320x320.png">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="images/320x320.png">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente aut, eveniet provident sit expedita accusantium enim? Ut iusto maxime totam ipsa laborum voluptatibus, beatae aliquid officia enim quia sequi.</h3>
+                        </a>
+                    </article>
+                </section>
             </div>
         </aside>
     </div>
